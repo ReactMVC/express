@@ -9,7 +9,7 @@ app.use("/api/v1/users", UserRouter);
 // Account Router
 app.use("/api/v1/account", AccountRouter);
 
-// Account Router
+// Demo Router
 app.use("/api/v1", DemoRouter);
 
 module.exports = app;
